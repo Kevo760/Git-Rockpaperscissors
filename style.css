@@ -1,0 +1,157 @@
+html {
+    background-image: url('/Images/bg.jpg');
+    background-position: center;
+    background-repeat: none;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 55em;
+    height: 37.5em;
+    background-color: black;
+    border-radius: .7em;
+    opacity: 90%;
+    margin: 5em auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    margin-top: -1em;
+}
+
+/* =========================== TEXT Styles ============================ */
+
+h1 {
+    display: inline-block;
+    padding: .5em 3em;
+    background-color: hsl(248, 53%, 58%);
+    border-radius: .2em;
+    margin-top: 1em;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.round-result {
+    position: absolute;
+    transform: translate( 45%, -210%);
+}
+
+/* =========================== TEXT Styles ============================ */
+
+/* =========================== FADE IN/OUT ============================ */
+
+.fade-in {
+    display: none;
+}
+
+.fade-out {
+    display: block;
+}
+
+
+/* =========================== FADE IN/OUT ============================ */
+
+/* =========================== GAME BOX ============================ */
+.game-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 1.5rem;
+}
+
+/* =========================== GAME BOX ============================ */
+
+/* =========================== SELECT SECTION ============================ */
+
+.select {
+    margin-top: 2em;
+}
+/* =========================== SELECT SECTION ============================ */
+
+/* =========================== RESTART SECTION ============================ */
+.restart {
+    display: none;
+    position: absolute;
+    transform: translate(130%, 50%);
+    transition-duration: 0.2s;
+}
+/* =========================== RESTART SECTION ============================ */
+
+
+
+/* =========================== BUTTONS ============================ */
+
+.select button {
+    padding: 1em 4em;
+    margin: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: hsl(210, 100%, 56%);
+    border-radius: .5em;
+    border: inherit;
+    opacity: 1;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.select button:hover {
+    background-color: hsl(210, 100%, 30%);
+    transition-duration: 0.4s;
+}
+
+.start-btn {
+    position: absolute;
+    display: block;
+    padding: .5em 1em;
+    font-size: 2em;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    background-color: hsl(315, 100%, 40%);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transform: translate(65%, 300%);
+}
+
+
+.start-btn:hover {
+    background-color: hsl(315, 100%, 25%);
+    transition-duration: 0.2s;
+}
+
+
+.restart button {
+    padding: 1em 4em;
+    margin: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: hsl(210, 100%, 56%);
+    border-radius: .5em;
+    border: inherit;
+    opacity: 1;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.restart button:hover {
+    background-color: hsl(210, 100%, 30%);
+    transition-duration: 0.4s;
+}
+/* =========================== BUTTONS ============================ */

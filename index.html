@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    
+
+    <h1>ROCK PAPER SCISSORS!</h1>
+
+    <div class="fade-out">
+        <button class="start-btn">Start Game</button>
+    </div>
+
+    <div class="fade-in">
+
+       <p class="round-result"></p>
+
+        <div class="game-box">
+
+            <div class="player-side">
+                <p>You</p>
+                <img class="player-icon" src="./Images/rock.png" alt="player choice">
+                <p id="ptext">0</p>
+            </div>
+
+            <div class="comp-side">
+                <p>Computer</p>
+            <img class="computer-icon" src="./Images/rock.png" alt="computer choice">
+            <p id="ctext">0</p>
+            </div>
+
+        </div>
+
+        <div class="select">
+            <button class="rock" value="rock">Rock</button>
+            <button class="paper" value="paper">Paper</button>
+             <button class="scissors" value="scissors">Scissors</button>
+        </div>
+
+        <div class="restart">
+            <button class="restart-btn">Play Again</button>
+        </div>
+
+        
+    </div>
 </body>
 <script src="script.js" ></script>
 </html>
